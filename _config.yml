@@ -94,7 +94,7 @@ navbar:
   expand    :  # At which device size expand the navbar menu. default[md] https://getbootstrap.com/docs/4.5/layout/overview/
   brand:
     title   :  Home # Title in navbar
-    url     :  https://jk296.github.io/B/blog/ # default["url/baseurl"]
+    url     :  https://johnnykun.com # default["url/baseurl"]
     img     :  # An small image, try 30x30px
   nav:
   - title   : Blog # Label
