@@ -8,8 +8,8 @@ remote_theme: dieghernan/chulapa
 # Overall options for your site, would affect your site SEO
 # Default values are explained
 locale                  :     #default["en-US"] format language-TERRITORY , e.g fr, en-GB, es-MX, pt-BR
-title                   : blog    #default["repository_name"]
-title_separator         :     #default [" | "]
+title                   : J.    #default["repository_name"]
+title_separator         : blog    #default [" | "]
 subtitle                :     #default [your-repository-tagline]  
 description             :  #default [your-repository-tagline]
 url                     :     #See baseurl - On Github Pages you may leave it blank - If you use CNAME use your domain
