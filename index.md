@@ -3,18 +3,19 @@ title: J.
 header_type: post
 subtitle: 免費聽
 ---
-
-  
-<!--	<meta name="viewport" content="width=device-width, height=device-height, initial-scale=0.64, minimum-scale=0.64"> -->
+<head>
+ 
+	<meta name="viewport" content="height=device-height, initial-scale=0.64, minimum-scale=0.64">
 
 	<meta charset="UTF-8">
+    <title></title>
 
     <!-- Include Amplitude JS -->
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/amplitudejs@5.2.1/dist/amplitude.min.js"></script>
 
     <!-- Include Style Sheet -->
     <link rel="stylesheet" type="text/css" href="css/app.css" />
-    
+</head>
 <body>
     <!-- Blue Playlist Container -->
     <div id="blue-playlist-container">
