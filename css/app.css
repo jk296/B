@@ -32,7 +32,7 @@ div#amplitude-left {
   display: flex;
   flex-direction: column; }
   div#amplitude-left img {
-    width: 80%; } /*100%*/
+    width: 100%; } /*100%*/
   div#amplitude-left div#player-left-bottom {
     flex: 1;
     background-color: #F1F1F1;
@@ -347,7 +347,7 @@ div#control-container {
       margin-top: 40px;
       float: none; } }
   div#control-container div#central-control-container {
-    width: 50%;
+    width: 40%; /*50%*/
     float: left; }
     div#control-container div#central-control-container div#central-controls {
       width: 130px;
