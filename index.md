@@ -1,6 +1,6 @@
 ---
 title: J.
-header_type: hero
+header_type: base
 subtitle: 免費聽
 ---
 
