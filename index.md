@@ -1,6 +1,6 @@
 ---
 title: J.
-header_type: post 
+header_type: post
 subtitle: 免費聽
 ---
 
