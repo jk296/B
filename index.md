@@ -1,11 +1,9 @@
 ---
 title: J.
-header_type: base
+header_type: post
 subtitle: 免費聽
 ---
 
-
-<head>
   
 <!--	<meta name="viewport" content="width=device-width, height=device-height, initial-scale=0.64, minimum-scale=0.64"> -->
 
@@ -16,7 +14,7 @@ subtitle: 免費聽
 
     <!-- Include Style Sheet -->
     <link rel="stylesheet" type="text/css" href="css/app.css" />
-</head>
+    
 <body>
     <!-- Blue Playlist Container -->
     <div id="blue-playlist-container">
