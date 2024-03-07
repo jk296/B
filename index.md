@@ -1,13 +1,13 @@
 ---
 title: J.
-header_type: post
+header_type: base
 subtitle: 免費聽
 ---
 
 
 <head>
  
-	<meta name="viewport" content="width=device-width, height=device-height, initial-scale=0.66, minimum-scale=0.66">
+	<meta name="viewport" content="width=device-width, height=device-height, initial-scale=0.65, minimum-scale=0.65">
 
 	<meta charset="UTF-8">
 
