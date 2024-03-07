@@ -1,4 +1,9 @@
-<!DOCTYPE html>
+---
+title: J.
+header_type: hero
+subtitle: 免費聽
+---
+
 <html>
 <head>
     <!-- 
@@ -387,16 +392,8 @@
     <script type="text/javascript" src="js/functions.js"></script>
 
     <center>
-        <br></br>
-        <text style="font-size:18px">
-            Copyright © 2024 J. All rights reserved.
-            <br></br>
-        </text>
-
         <text style="font-size:18px">
             Updated 7 March 2024
         </text>
-</body>
-</html>
 
 
