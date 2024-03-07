@@ -11,7 +11,7 @@ div#amplitude-player {
   margin-top: 20px;
   margin-bottom: 20px;
   display: flex;
-  max-width: 700px; } /*900px*/
+  max-width: 900px; }
 
 /* Small only */
 @media screen and (max-width: 39.9375em) {
@@ -45,7 +45,7 @@ div#amplitude-left {
 /* Small only */
 @media screen and (max-width: 39.9375em) {
   div#amplitude-player div#amplitude-left {
-    width: 100%; }
+    width: 80%; } /*100%*/
     div#amplitude-player div#amplitude-left img[amplitude-song-info="cover_art_url"] {
       width: auto;
       height: auto; } }
