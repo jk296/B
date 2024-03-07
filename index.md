@@ -4,11 +4,10 @@ header_type: hero
 subtitle: 免費聽
 ---
 
-<html>
 <head>
-    <!-- 
+ 
 	<meta name="viewport" content="width=device-width, height=device-height, initial-scale=0.5, minimum-scale=0.5">
-	-->
+
 	<meta charset="UTF-8">
     <title></title>
 
