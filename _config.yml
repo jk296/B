@@ -97,15 +97,15 @@ navbar:
     url     :  https://johnnykun.com # default["url/baseurl"]
     img     :  # An small image, try 30x30px
   nav:
-  - title   : Blog # Label
+  - title   : blog # Label
     url     : /blog/ # url	
   #- title   : Cheatsheets
   #  url     : /cheatsheets
-  - title   : Extras
-    child   :
-      - title : 上班
+  #- title   : Extras
+  #  child   :
+  #    - title : 上班
   #      url   : /tags
-      - title : 購物
+  #    - title : 購物
   #      url   : /categories
   #    - title : Archive
   #      url   : /archive
