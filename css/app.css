@@ -83,7 +83,7 @@ div#amplitude-right {
       width: calc( 100% - 110px ); }
       div#amplitude-right div.song div.song-meta-data span.song-title {
         color: #2F2F2F;
-        font-size: 30px;
+        font-size: 20px; /*30px*/
         display: block;
         font-weight: 400;
         white-space: normal;
@@ -91,7 +91,7 @@ div#amplitude-right {
         text-overflow: ellipsis; }
       div#amplitude-right div.song div.song-meta-data span.song-artist {
         color: #1181FF;
-        font-size: 30px;
+        font-size: 20px; /*30px*/
         font-weight: 400;
         text-transform: none;
         display: block;
@@ -112,7 +112,7 @@ div#amplitude-right {
       text-align: center;
       line-height: 45px;
       color: #607D8B;
-      font-size: 16px;
+      font-size: 12px; /*16px*/
       font-weight: 500; }
   div#amplitude-right div.song:after {
     content: "";
@@ -550,14 +550,14 @@ input[type=range].amplitude-volume-slider::-ms-tooltip {
 
 div#time-container span.current-time {
   color: #607D8B;
-  font-size: 14px;
+  font-size: 10px; /*14px*/
   font-weight: 700;
   float: left;
   width: 15%;
   text-align: center; }
 div#time-container span.duration {
   color: #607D8B;
-  font-size: 14px;
+  font-size: 10px; /*14px*/
   font-weight: 700;
   float: left;
   width: 15%;
@@ -574,14 +574,14 @@ div#meta-container {
   div#meta-container span.song-name {
     display: block;
     color: #272726;
-    font-size: 20px;
+    font-size: 16px; /*20px*/
     font-family: 'Open Sans', sans-serif;
     white-space: normal;
     overflow: hidden;
     text-overflow: ellipsis; }
   div#meta-container div.song-artist-album {
     color: #607D8B;
-    font-size: 14px;
+    font-size: 10px; /*14px*/
     font-weight: 700;
     text-transform: uppercase;
     font-family: 'Open Sans', sans-serif;
