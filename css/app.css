@@ -43,7 +43,7 @@ div#amplitude-left {
       clear: both; }
 
 /* Small only */
-@media screen and (max-width: 39.9375em) {
+@media screen and (max-width: 30.9375em) { /*max-width: 39.9375em*/
   div#amplitude-player div#amplitude-left {
     width: 100%; }
     div#amplitude-player div#amplitude-left img[amplitude-song-info="cover_art_url"] {
@@ -120,7 +120,7 @@ div#amplitude-right {
     clear: both; }
 
 /* Small only */
-@media screen and (max-width: 39.9375em) {
+@media screen and (max-width: 30.9375em) { /*max-width: 39.9375em*/
   div#amplitude-player div#amplitude-right {
     width: 100%; } }
 div#progress-container {
