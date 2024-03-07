@@ -1,6 +1,6 @@
 ---
 title: J.
-header_type: base
+header_type: post /*base, post, hero,image, splash*/
 subtitle: 免費聽
 ---
 
