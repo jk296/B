@@ -17,7 +17,7 @@ div#amplitude-player {
 @media screen and (max-width: 39.9375em) { /*max-width: 39.9375em*/
   div#amplitude-player {
     flex-direction: row; /*flex-direction: column;*/
-    flex-basis: 80%;} }
+    flex-basis: 90%;} }
 /* Medium only */
 @media screen and (min-width: 40em) and (max-width: 63.9375em) {
   div#amplitude-player {
