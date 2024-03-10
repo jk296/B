@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- 
+	<meta name="viewport" content="width=device-width, height=device-height, initial-scale=0.5, minimum-scale=0.5">
+	-->
+	<meta charset="UTF-8">
+    <title>英文單字強</title>
+
+    <!-- Include Amplitude JS -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/amplitudejs@5.2.1/dist/amplitude.min.js"></script>
+
+    <!-- Include Style Sheet -->
+    <link rel="stylesheet" type="text/css" href="css/app.css" />
+</head>
+
+<style>
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: center
+    }
+
+    .img {
+        max-width: 100%;
+        max-height: 100%;
+    }
+
+    .text {
+        font-size: 10px;
+        padding-right: 5px;
+        padding-left: 0px;
+    }
+
+    .container2 {
+        text-align: center;
+        vertical-align: top;
+    }
+
+    .row {
+        display: flex;
+        justify-content: center;
+    }
+
+    .column1 {
+        text-align: left;
+        padding: 0px 0px 0px 50px;
+    }
+
+    .column2 {
+        text-align: left;
+        padding: 0px 0px 0px 30px;
+    }
+
+    .img-container {
+        position: relative;
+        z-index: 0;
+    }
+
+    .overlay-img1 {
+        position: absolute;
+        top: 185px;
+        bottom: 0;
+        left: -315px;
+        right: 0;
+        height: 100%;
+        width: 100%;
+        z-index: 2;
+    }
+    .overlay-img2 {
+        position: absolute;
+        top: 465px;
+        bottom: 0;
+        left: -265px;
+        right: 0;
+        height: 100%;
+        width: 100%;
+        z-index: 2;
+    }
+    .overlay-img3 {
+        position: absolute;
+        top: 125px;
+        bottom: 0;
+        left: -335px;
+        right: 0;
+        height: 100%;
+        width: 100%;
+        z-index: 1;
+    }
+</style>
+
+<body>
+    <!-- Blue Playlist Container -->
+    <div id="blue-playlist-container">
+
+        <!-- Amplitude Player -->
+        <div id="amplitude-player">
+
+            <!-- Left Side Player -->
+            <div id="amplitude-left">
+                <img data-amplitude-song-info="cover_art_url" />
+                <div id="player-left-bottom">
+                    <div id="time-container">
+                        <span class="current-time">
+                            <span class="amplitude-current-minutes"></span>:<span class="amplitude-current-seconds"></span>
+                        </span>
+                        <div id="progress-container">
+                            <input type="range" class="amplitude-song-slider" />
+                            <progress id="song-played-progress" class="amplitude-song-played-progress"></progress>
+                            <progress id="song-buffered-progress" class="amplitude-buffered-progress" value="0"></progress>
+                        </div>
+                        <span class="duration">
+                            <span class="amplitude-duration-minutes"></span>:<span class="amplitude-duration-seconds"></span>
+                        </span>
+                    </div>
+
+                    <div id="control-container">
+                        <div id="repeat-container">
+                            <div class="amplitude-repeat" id="repeat"></div>
+                            <div class="amplitude-shuffle amplitude-shuffle-off" id="shuffle"></div>
+                        </div>
+
+                        <div id="central-control-container">
+                            <div id="central-controls">
+                                <div class="amplitude-prev" id="previous"></div>
+                                <div class="amplitude-play-pause" id="play-pause"></div>
+                                <div class="amplitude-next" id="next"></div>
+                            </div>
+                        </div>
+
+                        <div id="volume-container">
+                            <div class="volume-controls">
+                                <div class="amplitude-mute amplitude-not-muted"></div>
+                                <input type="range" class="amplitude-volume-slider" />
+                                <div class="ms-range-fix"></div>
+                            </div>
+                            <div class="amplitude-shuffle amplitude-shuffle-off" id="shuffle-right"></div>
+                        </div>
+                    </div>
+
+                    <div id="meta-container">
+                        <span data-amplitude-song-info="name" class="song-name"></span>
+
+                        <div class="song-artist-album">
+                            <span data-amplitude-song-info="artist"></span>
+                            <span data-amplitude-song-info="album"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End Left Side Player -->
+            <!-- Right Side Player -->
+            <div id="amplitude-right">
+                <div class="song amplitude-song-container amplitude-play-pause" data-amplitude-song-index="0">
+                    <div class="song-now-playing-icon-container">
+                        <div class="play-button-container">
+
+                        </div>
+                        <img class="now-playing" src="./img/now-playing.svg" height="30px" />
+                    </div>
+                    <div class="song-meta-data">
+                        <span class="song-title">We need to do a 180 on our priorities.</span>
+                        <span class="song-artist">我們必須對優先順位進行180度的調整。</span>
+                    </div>
+
+                    <span class="song-duration">0:02</span>
+                </div>
+                <div class="song amplitude-song-container amplitude-play-pause" data-amplitude-song-index="1">
+                    <div class="song-now-playing-icon-container">
+                        <div class="play-button-container">
+
+                        </div>
+                        <img class="now-playing" src="./img/now-playing.svg" height="30px" />
+                    </div>
+                    <div class="song-meta-data">
+                        <span class="song-title">Things are starting to take shape. Keep up the good work everyone!</span>
+                        <span class="song-artist">一切都開始逐漸成形了。大家繼續加油！</span>
+                    </div>
+
+                    <span class="song-duration">0:02</span>
+                </div>
+                <div class="song amplitude-song-container amplitude-play-pause" data-amplitude-song-index="2">
+                    <div class="song-now-playing-icon-container">
+                        <div class="play-button-container">
+
+                        </div>
+                        <img class="now-playing" src="./img/now-playing.svg" height="30px" />
+                    </div>
+                    <div class="song-meta-data">
+                        <span class="song-title">Alright, I won't argue with you anymore. You have the final word.</span>
+                        <span class="song-artist">好啦，我不要再跟你吵了。你說了算。</span>
+                    </div>
+
+                    <span class="song-duration">0:03</span>
+                </div>
+                <div class="song amplitude-song-container amplitude-play-pause" data-amplitude-song-index="3">
+                    <div class="song-now-playing-icon-container">
+                        <div class="play-button-container">
+
+                        </div>
+                        <img class="now-playing" src="./img/now-playing.svg" height="30px" />
+                    </div>
+                    <div class="song-meta-data">
+                        <span class="song-title">This game-changing product is a quantum leap for us.</span>
+                        <span class="song-artist">這個顛覆性產品對我們來說是一項創舉。</span>
+                    </div>
+
+                    <span class="song-duration">0:03</span>
+                </div>
+                <div class="song amplitude-song-container amplitude-play-pause" data-amplitude-song-index="4">
+                    <div class="song-now-playing-icon-container">
+                        <div class="play-button-container">
+
+                        </div>
+                        <img class="now-playing" src="./img/now-playing.svg" height="30px" />
+                    </div>
+                    <div class="song-meta-data">
+                        <span class="song-title">She is a philanthropist with a big heart. I admire her a lot.</span>
+                        <span class="song-artist">她是個心胸寬大的慈善家。我非常仰慕她。</span>
+                    </div>
+
+                    <span class="song-duration">0:04</span>
+                </div>
+                <div class="song amplitude-song-container amplitude-play-pause" data-amplitude-song-index="5">
+                    <div class="song-now-playing-icon-container">
+                        <div class="play-button-container">
+
+                        </div>
+                        <img class="now-playing" src="./img/now-playing.svg" height="30px" />
+                    </div>
+                    <div class="song-meta-data">
+                        <span class="song-title">We decided to zero in on our core business.</span>
+                        <span class="song-artist">我們決定要專注於核心事業。</span>
+                    </div>
+
+                    <span class="song-duration">0:03</span>
+                </div>
+                <div class="song amplitude-song-container amplitude-play-pause" data-amplitude-song-index="6">
+                    <div class="song-now-playing-icon-container">
+                        <div class="play-button-container">
+
+                        </div>
+                        <img class="now-playing" src="./img/now-playing.svg" height="30px" />
+                    </div>
+                    <div class="song-meta-data">
+                        <span class="song-title">Don't let them drag your name through the mud.</span>
+                        <span class="song-artist">不要讓他們抹黑你。</span>
+                    </div>
+
+                    <span class="song-duration">0:02</span>
+                </div>
+                <div class="song amplitude-song-container amplitude-play-pause" data-amplitude-song-index="7">
+                    <div class="song-now-playing-icon-container">
+                        <div class="play-button-container">
+
+                        </div>
+                        <img class="now-playing" src="./img/now-playing.svg" height="30px" />
+                    </div>
+                    <div class="song-meta-data">
+                        <span class="song-title">Believe in yourself. A positive attitude will go a long way.</span>
+                        <span class="song-artist">相信你自己。正面樂觀的心態對你會有莫大的幫助。</span>
+                    </div>
+
+                    <span class="song-duration">0:04</span>
+                </div>
+                <div class="song amplitude-song-container amplitude-play-pause" data-amplitude-song-index="8">
+                    <div class="song-now-playing-icon-container">
+                        <div class="play-button-container">
+
+                        </div>
+                        <img class="now-playing" src="./img/now-playing.svg" height="30px" />
+                    </div>
+                    <div class="song-meta-data">
+                        <span class="song-title">With her in the equation, the project will definitely go ahead smoothly.</span>
+                        <span class="song-artist">有了她的加入，計劃一定會順利進行。</span>
+                    </div>
+
+                    <span class="song-duration">0:05</span>
+                </div>
+                <div class="song amplitude-song-container amplitude-play-pause" data-amplitude-song-index="9">
+                    <div class="song-now-playing-icon-container">
+                        <div class="play-button-container">
+
+                        </div>
+                        <img class="now-playing" src="./img/now-playing.svg" height="30px" />
+                    </div>
+                    <div class="song-meta-data">
+                        <span class="song-title">Although I don't know what lies ahead, I have a good feeling about this year.</span>
+                        <span class="song-artist">雖然我不知道未來會發生什麼事，但我覺得今年會有好事發生。</span>
+                    </div>
+
+                    <span class="song-duration">0:04</span>
+                </div>
+                <div class="song amplitude-song-container amplitude-play-pause" data-amplitude-song-index="10">
+                    <div class="song-now-playing-icon-container">
+                        <div class="play-button-container">
+
+                        </div>
+                        <img class="now-playing" src="./img/now-playing.svg" height="30px" />
+                    </div>
+                    <div class="song-meta-data">
+                        <span class="song-title">If you ask me, our chance of losing the bid is wafer-thin.</span>
+                        <span class="song-artist">要我說的話，我們競標失利的可能性微乎其微。</span>
+                    </div>
+
+                    <span class="song-duration">0:04</span>
+                </div>
+                <div class="song amplitude-song-container amplitude-play-pause" data-amplitude-song-index="11">
+                    <div class="song-now-playing-icon-container">
+                        <div class="play-button-container">
+
+                        </div>
+                        <img class="now-playing" src="./img/now-playing.svg" height="30px" />
+                    </div>
+                    <div class="song-meta-data">
+                        <span class="song-title">You don't need to name-drop to convince people how brilliant you are.</span>
+                        <span class="song-artist">你不需要靠打著大人物的名號來說服別人你有多優秀。</span>
+                    </div>
+
+                    <span class="song-duration">0:03</span>
+                </div>
+                <div class="song amplitude-song-container amplitude-play-pause" data-amplitude-song-index="12">
+                    <div class="song-now-playing-icon-container">
+                        <div class="play-button-container">
+
+                        </div>
+                        <img class="now-playing" src="./img/now-playing.svg" height="30px" />
+                    </div>
+                    <div class="song-meta-data">
+                        <span class="song-title">I don't want to back-pedal on my stance just to fit in.</span>
+                        <span class="song-artist">我不想要為了融入大家就改變我的立場。</span>
+                    </div>
+
+                    <span class="song-duration">0:02</span>
+                </div>
+                <div class="song amplitude-song-container amplitude-play-pause" data-amplitude-song-index="13">
+                    <div class="song-now-playing-icon-container">
+                        <div class="play-button-container">
+
+                        </div>
+                        <img class="now-playing" src="./img/now-playing.svg" height="30px" />
+                    </div>
+                    <div class="song-meta-data">
+                        <span class="song-title">It's a highly sought-after skill so you'll be able to pick and choose where you work.</span>
+                        <span class="song-artist">這是非常搶手的技能，所以你可以挑選你要在哪裡工作。</span>
+                    </div>
+
+                    <span class="song-duration">0:04</span>
+                </div>
+                <div class="song amplitude-song-container amplitude-play-pause" data-amplitude-song-index="14">
+                    <div class="song-now-playing-icon-container">
+                        <div class="play-button-container">
+
+                        </div>
+                        <img class="now-playing" src="./img/now-playing.svg" height="30px" />
+                    </div>
+                    <div class="song-meta-data">
+                        <span class="song-title">Can you fill me in on the ins and outs of this technique?</span>
+                        <span class="song-artist">你可以告訴我這個技術的細節嗎？</span>
+                    </div>
+
+                    <span class="song-duration">0:02</span>
+                </div>
+                <div class="song amplitude-song-container amplitude-play-pause" data-amplitude-song-index="15">
+                    <div class="song-now-playing-icon-container">
+                        <div class="play-button-container">
+
+                        </div>
+                        <img class="now-playing" src="./img/now-playing.svg" height="30px" />
+                    </div>
+                    <div class="song-meta-data">
+                        <span class="song-title">The deal-breaker is their lack of flexibility in pricing.</span>
+                        <span class="song-artist">交易破局的原因是他們在定價上缺乏彈性。</span>
+                    </div>
+
+                    <span class="song-duration">0:03</span>
+                </div>
+                <div class="song amplitude-song-container amplitude-play-pause" data-amplitude-song-index="16">
+                    <div class="song-now-playing-icon-container">
+                        <div class="play-button-container">
+
+                        </div>
+                        <img class="now-playing" src="./img/now-playing.svg" height="30px" />
+                    </div>
+                    <div class="song-meta-data">
+                        <span class="song-title">She's an up-and-coming entrepreneur. I see a bright future ahead of her.</span>
+                        <span class="song-artist">她是大有可為的創業家。在我看來，她前途一片光明。</span>
+                    </div>
+
+                    <span class="song-duration">0:03</span>
+                </div>
+                <div class="song amplitude-song-container amplitude-play-pause" data-amplitude-song-index="17">
+                    <div class="song-now-playing-icon-container">
+                        <div class="play-button-container">
+
+                        </div>
+                        <img class="now-playing" src="./img/now-playing.svg" height="30px" />
+                    </div>
+                    <div class="song-meta-data">
+                        <span class="song-title">Do you want me to spell out the procedure step by step for you?</span>
+                        <span class="song-artist">你要我把流程一個步驟一個步驟詳細解釋給你聽嗎？</span>
+                    </div>
+
+                    <span class="song-duration">0:03</span>
+                </div>
+                <div class="song amplitude-song-container amplitude-play-pause" data-amplitude-song-index="18">
+                    <div class="song-now-playing-icon-container">
+                        <div class="play-button-container">
+
+                        </div>
+                        <img class="now-playing" src="./img/now-playing.svg" height="30px" />
+                    </div>
+                    <div class="song-meta-data">
+                        <span class="song-title">Bricks-and-mortar stores are still going strong in our industry.</span>
+                        <span class="song-artist">實體店在我們這個行業還是蒸蒸日上。</span>
+                    </div>
+
+                    <span class="song-duration">0:03</span>
+                </div>
+                <div class="song amplitude-song-container amplitude-play-pause" data-amplitude-song-index="19">
+                    <div class="song-now-playing-icon-container">
+                        <div class="play-button-container">
+
+                        </div>
+                        <img class="now-playing" src="./img/now-playing.svg" height="30px" />
+                    </div>
+                    <div class="song-meta-data">
+                        <span class="song-title">I'd like to thank all the unsung heroes and heroines behind this success.</span>
+                        <span class="song-artist">我想要感謝這次成功背後所有的無名英雄和女英雄。</span>
+                    </div>
+
+                    <span class="song-duration">0:05</span>
+                </div>
+                <div class="song amplitude-song-container amplitude-play-pause" data-amplitude-song-index="20">
+                    <div class="song-now-playing-icon-container">
+                        <div class="play-button-container">
+
+                        </div>
+                        <img class="now-playing" src="./img/now-playing.svg" height="30px" />
+                    </div>
+                    <div class="song-meta-data">
+                        <span class="song-title">Ignore him. He's such a Monday-morning quarterback.</span>
+                        <span class="song-artist">別理他。他只會事後出一張嘴批評。</span>
+                    </div>
+
+                    <span class="song-duration">0:03</span>
+                </div>
+                <div class="song amplitude-song-container amplitude-play-pause" data-amplitude-song-index="21">
+                    <div class="song-now-playing-icon-container">
+                        <div class="play-button-container">
+
+                        </div>
+                        <img class="now-playing" src="./img/now-playing.svg" height="30px" />
+                    </div>
+                    <div class="song-meta-data">
+                        <span class="song-title">You should touch on your customers' pain points in the abstract.</span>
+                        <span class="song-artist">你應該要在摘要裡稍微提到顧客的痛點。</span>
+                    </div>
+
+                    <span class="song-duration">0:03</span>
+                </div>
+                <div class="song amplitude-song-container amplitude-play-pause" data-amplitude-song-index="22">
+                    <div class="song-now-playing-icon-container">
+                        <div class="play-button-container">
+
+                        </div>
+                        <img class="now-playing" src="./img/now-playing.svg" height="30px" />
+                    </div>
+                    <div class="song-meta-data">
+                        <span class="song-title">I will bring my A-game to the team!</span>
+                        <span class="song-artist">我在團隊會全力以赴！</span>
+                    </div>
+
+                    <span class="song-duration">0:02</span>
+                </div>
+
+
+
+
+            </div>
+            <!-- End Right Side Player -->
+        </div>
+        <!-- End Amplitdue Player -->
+    </div>
+
+    <!--
+        Include UX functions JS
+
+        NOTE: These are for handling things outside of the scope of AmplitudeJS
+    -->
+    <script type="text/javascript" src="js/functions.js"></script>
+
+    <center>
+        <br><br><br>
+        <div class="container2">
+            <div class="row">
+                <div class="column1">
+                    <img width="137.28" height="281.84" src="sub/image/cover.png" alt="Cover page">
+                </div>
+                <div class="column2">
+                    <img width="612" height="39.4" src="sub/image/intro.png" alt="Introduction"></img>
+                    <br><br>
+                    <a href="https://apps.apple.com/tw/app/%E8%8B%B1%E6%96%87%E5%96%AE%E5%AD%97%E5%BC%B7/id1446180907?fbclid=IwAR23VRVPp7C_Hd35ZrgKsjWsBWRX-ERVSefKZbr4WsUKdqOHVTTb1nk6DcA">
+                        <img width="262.4" height="72" src="sub/image/ios.png" alt="iOS download"></img>
+                    </a>
+                    <br><br>
+                    <a href="https://play.google.com/store/apps/details?id=com.Johnnykun.EnglishJohn&hl=tw&fbclid=IwAR2i-oXtcjfntGmzKk7T4crFo_acZlOns-4OvE6Ny9IMGZYXpH8vVnI9T_Q">
+                        <img width="323.8" height="72" src="sub/image/android.png" alt="Android download"></img>
+                    </a>
+                    <br>
+                    <img width="301.7" height="25.9" style="padding: 0px 0px 0px 300px;" src="sub/image/intro2.png" alt="Introduction2"></img>
+                </div>
+            </div>
+        </div>
+        <br><br>
+        <div class="img-container">
+            <img width="800" height="700" src="sub/image/post001.png" alt="post 001">
+        </div>
+        <br><br>
+        <div class="img-container">
+            <img width="800" height="700" src="sub/image/dialog001.png" alt="post 001">
+            <div class="overlay-img1">
+                <img width="60" height="60" src="sub/image/speaker.png" onclick="playAudio('sub/audio/snow_under_1.mp3')" alt="speaker1 btn">
+            </div>
+            <div class="overlay-img2">
+                <img width="60" height="60" src="sub/image/speaker.png" onclick="playAudio('sub/audio/snow_under_2.mp3')" alt="speaker2 btn">
+            </div>
+            <div class="overlay-img3">
+                <img width="254" height="98" src="sub/image/arrow.png" alt="arrow">
+            </div>
+        </div>
+
+
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <text style="font-size:18px">
+            Copyright © 2024 Johnnykoon 英文單字強. All rights reserved.
+            <br>
+            Updated 8 March 2024
+        </text>
+    </center>
+</body>
+</html>
