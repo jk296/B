@@ -11,8 +11,7 @@ div#amplitude-player {
   margin-top: 20px;
   margin-bottom: 20px;
   display: flex;
-  max-width: 900px; 
-  flex-direction: row ;}
+  max-width: 900px;}
 
 /* Small only */
 @media screen and (max-width: 39.9375em) { /*max-width: 39.9375em*/
