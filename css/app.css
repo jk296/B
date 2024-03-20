@@ -22,9 +22,9 @@ div#amplitude-player {
   div#amplitude-player {
     max-height: 715px; } }
 /* Large and up */
-/*@media screen and (min-width: 64em) {
+@media screen and (min-width: 64em) {
   div#amplitude-player {
-    max-height: 715px; } }*/
+    max-height: 715px; } }
 div#amplitude-left {
   padding: 0px;
   border-right: 1px solid #CFD8DC;
