@@ -45,14 +45,14 @@ div#amplitude-left {
 /* Small only */
 @media screen and (max-width: 39.9375em) { /*max-width: 39.9375em*/
   div#amplitude-player div#amplitude-left {
-    width: 50%; } /*100%*/
+    width: 40%; } /*100%*/
     div#amplitude-player div#amplitude-left img[amplitude-song-info="cover_art_url"] {
       width: auto;
       height: auto; } }
 div#amplitude-right {
   padding: 0px;
   overflow-y: scroll;
-  width: 60%; /*60%*/
+  width: 80%; /*60%*/
   display: flex;
   flex-direction: column; }
   div#amplitude-right div.song {
@@ -80,7 +80,7 @@ div#amplitude-right {
       display: none; }
     div#amplitude-right div.song div.song-meta-data {
       float: left;
-      width: calc( 100% - 10px ); } /*100% - 110px*/
+      width: calc( 100% - 110px ); } /*100% - 110px*/
       div#amplitude-right div.song div.song-meta-data span.song-title {
         color: #2F2F2F;
         font-size: 12px; /*30px*/
