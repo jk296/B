@@ -48,7 +48,7 @@ div#amplitude-left {
     width: 40%; } /*100%*/
     div#amplitude-player div#amplitude-left img[amplitude-song-info="cover_art_url"] {
       width: auto;
-      height: auto; } }
+      height: auto; }
   div#amplitude-right {
   padding: 0px;
   overflow-y: scroll;
@@ -117,7 +117,7 @@ div#amplitude-left {
   div#amplitude-right div.song:after {
     content: "";
     display: table;
-    clear: both; }
+    clear: both; }}
 
 div#amplitude-right {
   padding: 0px;
