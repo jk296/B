@@ -80,7 +80,8 @@ div#amplitude-left {
       display: none; }
     div#amplitude-right div.song div.song-meta-data {
       float: left;
-      width: calc( 100% - 30px );margin-right: 20px; } /*calc( 100% - 110px )*/
+      width: calc( 100% - 50px );
+      margin-right: auto; } /*calc( 100% - 110px )*/
       div#amplitude-right div.song div.song-meta-data span.song-title {
         color: #2F2F2F;
         font-size: 14px; /*30px*/
