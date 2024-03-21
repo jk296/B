@@ -52,7 +52,7 @@ div#amplitude-left {
   div#amplitude-right {
   padding: 0px;
   overflow-y: scroll;
-  width: 70%; /*60%*/
+  width: 65%; /*60%*/
   display: flex;
   flex-direction: column; } /*column*/
   div#amplitude-right div.song {
@@ -80,7 +80,7 @@ div#amplitude-left {
       display: none; }
     div#amplitude-right div.song div.song-meta-data {
       float: left;
-      width: calc( 100% - 30px ); } /*calc( 100% - 110px )*/
+      width: calc( 100% - 30px );margin-right: 20px; } /*calc( 100% - 110px )*/
       div#amplitude-right div.song div.song-meta-data span.song-title {
         color: #2F2F2F;
         font-size: 14px; /*30px*/
