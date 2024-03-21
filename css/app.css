@@ -62,10 +62,10 @@ div#amplitude-left {
       float: left;
       width: 30px;
       height: 20px;
-      margin-right: 10px; } /*10px*/
+      margin-right: 3px; } /*10px*/
       div#amplitude-right div.song div.song-now-playing-icon-container img.now-playing {
         display: none;
-        margin-top: 15px; }
+        margin-top: 7px; } /*15px*/
     div#amplitude-right div.song div.play-button-container {
       display: none;
       background: url("../img/list-play-light.png") no-repeat;
@@ -80,11 +80,10 @@ div#amplitude-left {
       display: none; }
     div#amplitude-right div.song div.song-meta-data {
       float: left;
-      width: calc( 100% - 50px );
-      margin-right: auto; } /*calc( 100% - 110px )*/
+      width: calc( 100% - 60px ); margin-right: auto; } /*calc( 100% - 110px )*/
       div#amplitude-right div.song div.song-meta-data span.song-title {
         color: #2F2F2F;
-        font-size: 14px; /*30px*/
+        font-size: 13px; /*30px*/
         display: block;
         font-weight: 400;
         white-space: normal;
@@ -92,7 +91,7 @@ div#amplitude-left {
         text-overflow: ellipsis; }
       div#amplitude-right div.song div.song-meta-data span.song-artist {
         color: #1181FF;
-        font-size: 14px; /*30px*/
+        font-size: 13px; /*30px*/
         font-weight: 400;
         text-transform: none;
         display: block;
@@ -109,7 +108,7 @@ div#amplitude-left {
       margin-top: 10px; }
     div#amplitude-right div.song span.song-duration {
       float: right; /*left*/
-      width: 35px; /*left*/
+      width: 25px; /*35px*/
       text-align: center;
       line-height: 45px;
       color: #607D8B;
