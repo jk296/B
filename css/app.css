@@ -54,7 +54,7 @@ div#amplitude-left {
   overflow-y: scroll;
   width: 60%; /*60%*/
   display: flex;
-  flex-direction: column; }
+  flex-direction: row; } /*column*/
   div#amplitude-right div.song {
     cursor: pointer;
     padding: 10px; }
@@ -83,7 +83,7 @@ div#amplitude-left {
       width: calc( 100% - 110px ); }
       div#amplitude-right div.song div.song-meta-data span.song-title {
         color: #2F2F2F;
-        font-size: 16px; /*30px*/
+        font-size: 12px; /*30px*/
         display: block;
         font-weight: 400;
         white-space: normal;
@@ -91,7 +91,7 @@ div#amplitude-left {
         text-overflow: ellipsis; }
       div#amplitude-right div.song div.song-meta-data span.song-artist {
         color: #1181FF;
-        font-size: 16px; /*30px*/
+        font-size: 12px; /*30px*/
         font-weight: 400;
         text-transform: none;
         display: block;
