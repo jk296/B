@@ -60,9 +60,9 @@ div#amplitude-left {
     padding: 10px; }
     div#amplitude-right div.song div.song-now-playing-icon-container {
       float: left;
-      width: 30px;
-      height: 20px;
-      margin-right: 3px; } /*10px*/
+      width: 15px; /*30px*/
+      height: 10px; /*20px*/
+      margin-right: 30px; } /*10px*/
       div#amplitude-right div.song div.song-now-playing-icon-container img.now-playing {
         display: none;
         margin-top: 7px; } /*15px*/
