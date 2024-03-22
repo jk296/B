@@ -367,7 +367,7 @@ div#progress-container {
   div#progress-container input[type=range]:focus {
     outline: none; }
   div#progress-container input[type=range]::-webkit-slider-runnable-track {
-    width: 100%;
+    width: 50%; /*100%*/
     height: 0px;
     cursor: pointer;
     box-shadow: 0px 0px 0px rgba(0, 0, 0, 0), 0px 0px 0px rgba(13, 13, 13, 0);
@@ -587,7 +587,7 @@ input[type=range].amplitude-volume-slider {
   -webkit-appearance: none;
   width: calc( 100% - 33px);
   float: left;
-  margin-top: 0px; /*10px*/
+  margin-top: 5px; /*10px*/
   margin-left: 5px; }
 
 @-moz-document url-prefix() {
@@ -689,15 +689,15 @@ input[type=range].amplitude-volume-slider::-ms-tooltip {
 
 div#time-container span.current-time {
   color: #607D8B;
-  font-size: 14px;
-  font-weight: 700;
+  font-size: 7px; /*14px*/
+  font-weight: 500; /*700*/
   float: left;
   width: 15%;
   text-align: center; }
 div#time-container span.duration {
   color: #607D8B;
-  font-size: 14px;
-  font-weight: 700;
+  font-size: 7px; /*14px*/
+  font-weight: 500; /*700*/
   float: left;
   width: 15%;
   text-align: center; }
