@@ -499,7 +499,7 @@ div#control-container {
         background: url("../img/prev_s.svg");
         background-repeat: no-repeat;
         float: left;
-        margin-top: 10px;
+        margin-top: 5px; /*10px*/
         margin-right: -5px; }
       div#control-container div#central-control-container div#central-controls div#play-pause {
         display: inline-block;
@@ -519,7 +519,7 @@ div#control-container {
         background: url("../img/next_s.svg");
         background-repeat: no-repeat;
         float: left;
-        margin-top: 10px;
+        margin-top: 7px; /*10px*/
         margin-left: -5px; }
   div#control-container div#volume-container {
     width: 25%;
