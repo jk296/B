@@ -496,19 +496,19 @@ div#control-container {
         width: 20px; /*40px*/
         height: 20px; /*40px*/
         cursor: pointer;
-        background: url("../img/previ.svg");
+        background: url("../img/prev_s.svg");
         background-repeat: no-repeat;
         float: left;
         margin-top: 10px;
         margin-right: -5px; }
       div#control-container div#central-control-container div#central-controls div#play-pause {
         display: inline-block;
-        width: 60px; /*60px*/
-        height: 60px; /*60px*/
+        width: 30px; /*60px*/
+        height: 30px; /*60px*/
         cursor: pointer;
         float: left; }
         div#control-container div#central-control-container div#central-controls div#play-pause.amplitude-paused {
-          background: url("../img/play.png"); }
+          background: url("../img/play_s.png"); }
         div#control-container div#central-control-container div#central-controls div#play-pause.amplitude-playing {
           background: url("../img/pause.png"); }
       div#control-container div#central-control-container div#central-controls div#next {
@@ -516,7 +516,7 @@ div#control-container {
         width: 20px; /*40px*/
         height: 20px; /*40px*/
         cursor: pointer;
-        background: url("../img/next.png");
+        background: url("../img/next_s.png");
         background-repeat: no-repeat;
         float: left;
         margin-top: 10px;
