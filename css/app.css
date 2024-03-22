@@ -276,17 +276,17 @@ div#progress-container {
   div#progress-container:hover input[type=range].amplitude-song-slider::-moz-range-thumb {
     visibility: visible; }
   div#progress-container progress#song-played-progress {
-    width: 100%;
+    width: 50%; /*100%*/
     position: absolute;
     left: 0;
     top: 8px;
     right: 0;
-    width: 100%;
+    width: 50%; /*100%*/
     z-index: 60;
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
-    height: 4px;
+    height: 10px; /*4px*/
     border-radius: 5px;
     background: transparent;
     border: none;
@@ -317,7 +317,7 @@ div#progress-container {
     left: 0;
     top: 8px;
     right: 0;
-    width: 20%; /*100%*/
+    width: 50%; /*100%*/
     z-index: 10;
     -webkit-appearance: none;
     -moz-appearance: none;
@@ -360,7 +360,7 @@ div#progress-container {
     margin: 7.5px 0;
     position: absolute;
     z-index: 9999;
-    top: -11px; /*-7px*/
+    top: -7px; /*-7px*/
     height: 20px;
     cursor: pointer;
     background-color: inherit; }
@@ -380,7 +380,7 @@ div#progress-container {
     height: 7px; /*15px*/
     width: 7px;
     border-radius: 8px; /*16px*/
-    background: #0011ff; /*#00a0ff*/
+    background: #2bfbff; /*#00a0ff*/
     cursor: pointer;
     -webkit-appearance: none;
     margin-top: -11.5px; /*7.5px*/}
@@ -431,13 +431,13 @@ div#progress-container {
     display: block; }
   @media all and (-ms-high-contrast: none) {
     div#progress-container *::-ms-backdrop, div#progress-container input[type="range"].amplitude-song-slider {
-      padding: 0px; }
+      padding: 3px; /*0px*/}
     div#progress-container *::-ms-backdrop, div#progress-container input[type=range].amplitude-song-slider::-ms-thumb {
       height: 15px;
       width: 15px;
       border-radius: 10px;
       cursor: pointer;
-      margin-top: -8px; /*-8px*/}
+      margin-top: -4px; /*-8px*/}
     div#progress-container *::-ms-backdrop, div#progress-container input[type=range].amplitude-song-slider::-ms-track {
       border-width: 15px 0;
       border-color: transparent; }
@@ -523,7 +523,7 @@ div#control-container {
         margin-left: -5px; }
   div#control-container div#volume-container {
     width: 25%;
-    float: right; /*left*/
+    float: right; /*left*/ margin-left: 5px;
     padding-top: 10px; /*20px*/}
     div#control-container div#volume-container div#shuffle-right {
       width: 11.5px; /*23px*/
