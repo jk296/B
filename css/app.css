@@ -503,8 +503,8 @@ div#control-container {
         margin-right: -5px; }
       div#control-container div#central-control-container div#central-controls div#play-pause {
         display: inline-block;
-        width: 30px; /*60px*/
-        height: 30px; /*60px*/
+        width: 60px; /*60px*/
+        height: 60px; /*60px*/
         cursor: pointer;
         float: left; }
         div#control-container div#central-control-container div#central-controls div#play-pause.amplitude-paused {
