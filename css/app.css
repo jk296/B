@@ -65,7 +65,7 @@ div#amplitude-left {
       margin-right: 6px; } /*10px*/
       div#amplitude-right div.song div.song-now-playing-icon-container img.now-playing {
         display: none;
-        margin-top: 3px; } /*15px*/
+        margin-top: 10px; } /*15px*/
     div#amplitude-right div.song div.play-button-container {
       display: none;
       background: url("../img/list-play-light.png") no-repeat;
@@ -493,30 +493,30 @@ div#control-container {
       margin: auto; }
       div#control-container div#central-control-container div#central-controls div#previous {
         display: inline-block;
-        width: 40px;
-        height: 40px;
+        width: 20px; /*40px*/
+        height: 20px; /*40px*/
         cursor: pointer;
-        background: url("../img/prev.svg");
+        background: url("../img/previ.png");
         background-repeat: no-repeat;
         float: left;
         margin-top: 10px;
         margin-right: -5px; }
       div#control-container div#central-control-container div#central-controls div#play-pause {
         display: inline-block;
-        width: 60px;
-        height: 60px;
+        width: 30px; /*60px*/
+        height: 30px; /*60px*/
         cursor: pointer;
         float: left; }
         div#control-container div#central-control-container div#central-controls div#play-pause.amplitude-paused {
-          background: url("../img/play.svg"); }
+          background: url("../img/play.png"); }
         div#control-container div#central-control-container div#central-controls div#play-pause.amplitude-playing {
-          background: url("../img/pause.svg"); }
+          background: url("../img/pause.png"); }
       div#control-container div#central-control-container div#central-controls div#next {
         display: inline-block;
-        width: 40px;
-        height: 40px;
+        width: 20px; /*40px*/
+        height: 20px; /*40px*/
         cursor: pointer;
-        background: url("../img/next.svg");
+        background: url("../img/next.png");
         background-repeat: no-repeat;
         float: left;
         margin-top: 10px;
