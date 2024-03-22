@@ -1,7 +1,7 @@
 ---
 title: J.
 header_type: base
-subtitle: Listen 和 Learn
+subtitle: Listen 跟 Learn
 ---
 
 <head>
@@ -392,6 +392,6 @@ subtitle: Listen 和 Learn
 
     <center>
         <text style="font-size:18px">
-            Updated 5 March 2059
+            Updated 5 March 2060
         </text>
 
