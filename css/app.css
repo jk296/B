@@ -508,15 +508,15 @@ div#control-container {
         cursor: pointer;
         float: left; }
         div#control-container div#central-control-container div#central-controls div#play-pause.amplitude-paused {
-          background: url("../img/play_s.png"); }
+          background: url("../img/play_s.svg"); }
         div#control-container div#central-control-container div#central-controls div#play-pause.amplitude-playing {
-          background: url("../img/pause.png"); }
+          background: url("../img/pause_s.svg"); }
       div#control-container div#central-control-container div#central-controls div#next {
         display: inline-block;
         width: 20px; /*40px*/
         height: 20px; /*40px*/
         cursor: pointer;
-        background: url("../img/next_s.png");
+        background: url("../img/next_s.svg");
         background-repeat: no-repeat;
         float: left;
         margin-top: 10px;
