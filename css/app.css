@@ -496,7 +496,7 @@ div#control-container {
         width: 20px; /*40px*/
         height: 20px; /*40px*/
         cursor: pointer;
-        background: url("../img/previ.png");
+        background: url("../img/previ.svg");
         background-repeat: no-repeat;
         float: left;
         margin-top: 10px;
