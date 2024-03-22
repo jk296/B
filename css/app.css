@@ -465,22 +465,22 @@ div#control-container {
     float: left;
     padding-top: 25px; }
     div#control-container div#repeat-container div#repeat {
-      width: 24px;
-      height: 19px;
+      width: 12px; /*24px*/
+      height: 9.5px; /*19px*/
       cursor: pointer; }
       div#control-container div#repeat-container div#repeat.amplitude-repeat-off {
-        background: url("../img/repeat-off.svg"); }
+        background: url("../img/repeat-off_s.svg"); }
       div#control-container div#repeat-container div#repeat.amplitude-repeat-on {
-        background: url("../img/repeat-on.svg"); }
+        background: url("../img/repeat-on_s.svg"); }
     div#control-container div#repeat-container div#shuffle {
-      width: 23px;
-      height: 19px;
+      width: 11.5px; /*23px*/
+      height: 9.5px; /*19px*/
       cursor: pointer;
       float: right; }
       div#control-container div#repeat-container div#shuffle.amplitude-shuffle-off {
-        background: url("../img/shuffle-off.svg"); }
+        background: url("../img/shuffle-off_s.svg"); }
       div#control-container div#repeat-container div#shuffle.amplitude-shuffle-on {
-        background: url("../img/shuffle-on.svg"); }
+        background: url("../img/shuffle-on_s.svg"); }
   @media all and (-ms-high-contrast: none) {
     div#control-container *::-ms-backdrop, div#control-container div#control-container {
       margin-top: 40px;
@@ -519,31 +519,31 @@ div#control-container {
         background: url("../img/next_s.svg");
         background-repeat: no-repeat;
         float: left;
-        margin-top: 7px; /*10px*/
+        margin-top: 5px; /*10px*/
         margin-left: -5px; }
   div#control-container div#volume-container {
     width: 25%;
     float: left;
     padding-top: 20px; }
     div#control-container div#volume-container div#shuffle-right {
-      width: 23px;
-      height: 19px;
+      width: 11.5px; /*23px*/
+      height: 9.5px; /*19px*/
       cursor: pointer;
       margin: auto; }
       div#control-container div#volume-container div#shuffle-right.amplitude-shuffle-off {
-        background: url("../img/shuffle-off.svg"); }
+        background: url("../img/shuffle-off_s.svg"); }
       div#control-container div#volume-container div#shuffle-right.amplitude-shuffle-on {
-        background: url("../img/shuffle-on.svg"); }
+        background: url("../img/shuffle-on_s.svg"); }
   div#control-container div.amplitude-mute {
     cursor: pointer;
-    width: 25px;
-    height: 19px;
+    width: 12.5px; /*25px*/
+    height: 9.5px; /*19px*/
     float: left; }
     div#control-container div.amplitude-mute.amplitude-not-muted {
-      background: url("../img/volume.svg");
+      background: url("../img/volume_s.svg");
       background-repeat: no-repeat; }
     div#control-container div.amplitude-mute.amplitude-muted {
-      background: url("../img/mute.svg");
+      background: url("../img/mute_s.svg");
       background-repeat: no-repeat; }
 
 div#control-container:after {
