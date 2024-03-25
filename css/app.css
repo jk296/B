@@ -278,15 +278,15 @@ div#progress-container {
   div#progress-container progress#song-played-progress {
     width: 50%; /*100%*/
     position: absolute;
-    left: 0;
-    top: 8px;
+    left: 3px; /*0px*/
+    top: 5px; /*8px*/
     right: 0;
     width: 50%; /*100%*/
     z-index: 60;
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
-    height: 10px; /*4px*/
+    height: 4px; /*4px*/
     border-radius: 5px;
     background: transparent;
     border: none;
@@ -311,11 +311,11 @@ div#progress-container {
     border-radius: 5px;
     background-color: #00A0FF;
     height: 5px;
-    margin-top: -2px; }
+    margin-top: -2px; /*-2px*/ }
   div#progress-container progress#song-buffered-progress {
     position: absolute;
-    left: 0;
-    top: 8px;
+    left: 3px; /*0*/
+    top: 2px; /*8px*/
     right: 0;
     width: 50%; /*100%*/
     z-index: 10;
@@ -383,7 +383,7 @@ div#progress-container {
     background: #FF9F8A; /*#00a0ff*//*#2bfbff*/
     cursor: pointer;
     -webkit-appearance: none;
-    margin-top: -11.5px; /*7.5px*/}
+    margin-top: -5.5px; /*7.5px*/}
   div#progress-container input[type=range]:focus::-webkit-slider-runnable-track {
     background: #00adfb; }
   div#progress-container input[type=range]::-moz-range-track {
@@ -523,7 +523,7 @@ div#control-container {
         margin-left: -5px; }
   div#control-container div#volume-container {
     width: 25%;
-    float: left; /*left*/ margin-left: 20px;
+    float: left; /*left*/ margin-left: 3px;
     padding-top: 10px; /*20px*/}
     div#control-container div#volume-container div#shuffle-right {
       width: 11.5px; /*23px*/
