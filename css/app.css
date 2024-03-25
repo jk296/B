@@ -276,12 +276,12 @@ div#progress-container {
   div#progress-container:hover input[type=range].amplitude-song-slider::-moz-range-thumb {
     visibility: visible; }
   div#progress-container progress#song-played-progress {
-    width: 50%; /*100%*/
+    width: 80%; /*100%*/
     position: absolute;
     left: 7px; /*0px*/
     top: 3px; /*8px*/
     right: 0;
-    width: 50%; /*100%*/
+    width: 80%; /*100%*/
     z-index: 60;
     -webkit-appearance: none;
     -moz-appearance: none;
@@ -317,7 +317,7 @@ div#progress-container {
     left: 7px; /*0*/
     top: 3px; /*8px*/
     right: 0;
-    width: 50%; /*100%*/
+    width: 80%; /*100%*/
     z-index: 10;
     -webkit-appearance: none;
     -moz-appearance: none;
@@ -529,7 +529,7 @@ div#control-container {
       width: 11.5px; /*23px*/
       height: 9.5px; /*19px*/
       cursor: pointer;
-      /*margin: auto;*/ float: left; margin-left: 5px;}
+      /*margin: auto;*/ float: left; margin-left: 10px;}
       div#control-container div#volume-container div#shuffle-right.amplitude-shuffle-off {
         background: url("../img/shuffle-off_s.svg"); }
       div#control-container div#volume-container div#shuffle-right.amplitude-shuffle-on {
