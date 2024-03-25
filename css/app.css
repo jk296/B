@@ -278,8 +278,8 @@ div#progress-container {
   div#progress-container progress#song-played-progress {
     width: 50%; /*100%*/
     position: absolute;
-    left: 6px; /*0px*/
-    top: 7px; /*8px*/
+    left: 9px; /*0px*/
+    top: 0px; /*8px*/
     right: 0;
     width: 50%; /*100%*/
     z-index: 60;
@@ -523,7 +523,7 @@ div#control-container {
         margin-left: -5px; }
   div#control-container div#volume-container {
     width: 25%;
-    float: left; /*left*/ margin-left: 13px;
+    float: left; /*left*/ margin-left: 11.5px;
     padding-top: 10px; /*20px*/}
     div#control-container div#volume-container div#shuffle-right {
       width: 11.5px; /*23px*/
