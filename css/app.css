@@ -380,7 +380,7 @@ div#progress-container {
     height: 7px; /*15px*/
     width: 7px;
     border-radius: 8px; /*16px*/
-    background: #FF9F8A; /*#00a0ff*//*#2bfbff*/
+    background: #cafafcff; /*#00a0ff*//*#2bfbff*/
     cursor: pointer;
     -webkit-appearance: none;
     margin-top: -9px; /*7.5px*/ margin-left: 6px;}
