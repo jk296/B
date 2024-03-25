@@ -278,8 +278,8 @@ div#progress-container {
   div#progress-container progress#song-played-progress {
     width: 50%; /*100%*/
     position: absolute;
-    left: 9px; /*0px*/
-    top: 0px; /*8px*/
+    left: 7.5px; /*0px*/
+    top: 3px; /*8px*/
     right: 0;
     width: 50%; /*100%*/
     z-index: 60;
@@ -383,7 +383,7 @@ div#progress-container {
     background: #FF9F8A; /*#00a0ff*//*#2bfbff*/
     cursor: pointer;
     -webkit-appearance: none;
-    margin-top: -8.5px; /*7.5px*/}
+    margin-top: -8.5px; /*7.5px*/ margin-left: 10px;}
   div#progress-container input[type=range]:focus::-webkit-slider-runnable-track {
     background: #00adfb; }
   div#progress-container input[type=range]::-moz-range-track {
@@ -523,7 +523,7 @@ div#control-container {
         margin-left: -5px; }
   div#control-container div#volume-container {
     width: 25%;
-    float: left; /*left*/ margin-left: 11.5px;
+    float: left; /*left*/ margin-left: 9.5px;
     padding-top: 10px; /*20px*/}
     div#control-container div#volume-container div#shuffle-right {
       width: 11.5px; /*23px*/
