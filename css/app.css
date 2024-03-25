@@ -459,7 +459,7 @@ div#progress-container {
 
 div#control-container {
   margin-top: 25px;
-  margin-top: 20px; }
+  margin-top: 20px; margin-left: 0px}
   div#control-container div#repeat-container {
     width: 25%;
     float: left;
@@ -520,7 +520,7 @@ div#control-container {
         background-repeat: no-repeat;
         float: left;
         margin-top: 5px; /*10px*/
-        margin-left: -3px; /*-5px*/}
+        margin-left: 3px; /*-5px*/}
   div#control-container div#volume-container {
     width: 25%;
     float: left; /*left*/
