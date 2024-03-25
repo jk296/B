@@ -380,7 +380,7 @@ div#progress-container {
     height: 7px; /*15px*/
     width: 7px;
     border-radius: 8px; /*16px*/
-    background: #2bfbff; /*#00a0ff*/
+    background: #FF9F8A; /*#00a0ff*//*#2bfbff*/
     cursor: pointer;
     -webkit-appearance: none;
     margin-top: -11.5px; /*7.5px*/}
@@ -431,13 +431,13 @@ div#progress-container {
     display: block; }
   @media all and (-ms-high-contrast: none) {
     div#progress-container *::-ms-backdrop, div#progress-container input[type="range"].amplitude-song-slider {
-      padding: 3px; /*0px*/}
+      padding: -10px; /*0px*/}
     div#progress-container *::-ms-backdrop, div#progress-container input[type=range].amplitude-song-slider::-ms-thumb {
       height: 15px;
       width: 15px;
       border-radius: 10px;
       cursor: pointer;
-      margin-top: -4px; /*-8px*/}
+      margin-top: -12px; /*-8px*/}
     div#progress-container *::-ms-backdrop, div#progress-container input[type=range].amplitude-song-slider::-ms-track {
       border-width: 15px 0;
       border-color: transparent; }
