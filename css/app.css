@@ -383,7 +383,7 @@ div#progress-container {
     background: #FF9F8A; /*#00a0ff*//*#2bfbff*/
     cursor: pointer;
     -webkit-appearance: none;
-    margin-top: -5px; /*7.5px*/ margin-left: 6px;}
+    margin-top: -9px; /*7.5px*/ margin-left: 6px;}
   div#progress-container input[type=range]:focus::-webkit-slider-runnable-track {
     background: #00adfb; }
   div#progress-container input[type=range]::-moz-range-track {
@@ -476,7 +476,7 @@ div#control-container {
       width: 11.5px; /*23px*/
       height: 9.5px; /*19px*/
       cursor: pointer;
-      float: right; /*right*/ margin-right: -7px}
+      float: right; /*right*/ margin-right: 5px}
       div#control-container div#repeat-container div#shuffle.amplitude-shuffle-off {
         background: url("../img/shuffle-off_s.svg"); }
       div#control-container div#repeat-container div#shuffle.amplitude-shuffle-on {
@@ -529,7 +529,7 @@ div#control-container {
       width: 11.5px; /*23px*/
       height: 9.5px; /*19px*/
       cursor: pointer;
-      margin: auto; }
+      /*margin: auto;*/ float: left; margin-left: 5px;}
       div#control-container div#volume-container div#shuffle-right.amplitude-shuffle-off {
         background: url("../img/shuffle-off_s.svg"); }
       div#control-container div#volume-container div#shuffle-right.amplitude-shuffle-on {
