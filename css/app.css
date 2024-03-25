@@ -523,7 +523,7 @@ div#control-container {
         margin-left: -5px; }
   div#control-container div#volume-container {
     width: 25%;
-    float: right; /*left*/ margin-left: 5px;
+    float: left; /*left*/ margin-left: 20px;
     padding-top: 10px; /*20px*/}
     div#control-container div#volume-container div#shuffle-right {
       width: 11.5px; /*23px*/
