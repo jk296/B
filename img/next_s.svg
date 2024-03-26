@@ -8,8 +8,8 @@
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="20"
-   height="20"
-   viewBox="0 0 20 20"
+   height="30"
+   viewBox="0 0 20 30"
    version="1.1"
    id="svg17"
    sodipodi:docname="next_s.svg"
@@ -59,9 +59,9 @@
      inkscape:export-xdpi="300.30768"
      inkscape:export-ydpi="300.30768"
      style="fill:none;fill-rule:evenodd;stroke:none;stroke-width:1"
-     transform="scale(0.51282051)">
+     transform="matrix(0.51282051,0,0,0.51282051,0,10)">
     <rect
-       style="opacity:1;fill:#ffcc00;fill-opacity:1;stroke:none;stroke-width:2.20238876;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       style="opacity:1;fill:#ccff00;fill-opacity:1;stroke:none;stroke-width:2.20238876;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect825"
        width="38.999912"
        height="38.999992"
