@@ -60,12 +60,12 @@ div#amplitude-left {
     padding: 10px; }
     div#amplitude-right div.song div.song-now-playing-icon-container {
       float: left;
-      width: 12px; /*30px*/
-      height: 8px; /*20px*/
-      margin-right: 6px; } /*10px*/
+      width: 30px;
+      height: 20px;
+      margin-right: 10px; } /*10px*/
       div#amplitude-right div.song div.song-now-playing-icon-container img.now-playing {
         display: none;
-        margin-top: 10px; } /*15px*/
+        margin-top: 15px; }
     div#amplitude-right div.song div.play-button-container {
       display: none;
       background: url("../img/list-play-light.png") no-repeat;
@@ -80,10 +80,11 @@ div#amplitude-left {
       display: none; }
     div#amplitude-right div.song div.song-meta-data {
       float: left;
-      width: calc( 100% - 50px ); margin-right: auto; } /*calc( 100% - 110px )*/
+      width: calc( 100% - 50px );
+      margin-right: auto; } /*calc( 100% - 110px )*/
       div#amplitude-right div.song div.song-meta-data span.song-title {
         color: #2F2F2F;
-        font-size: 13px; /*30px*/
+        font-size: 14px; /*30px*/
         display: block;
         font-weight: 400;
         white-space: normal;
@@ -91,7 +92,7 @@ div#amplitude-left {
         text-overflow: ellipsis; }
       div#amplitude-right div.song div.song-meta-data span.song-artist {
         color: #1181FF;
-        font-size: 13px; /*30px*/
+        font-size: 14px; /*30px*/
         font-weight: 400;
         text-transform: none;
         display: block;
@@ -108,7 +109,7 @@ div#amplitude-left {
       margin-top: 10px; }
     div#amplitude-right div.song span.song-duration {
       float: right; /*left*/
-      width: 25px; /*35px*/
+      width: 35px; /*left*/
       text-align: center;
       line-height: 45px;
       color: #607D8B;
@@ -493,30 +494,30 @@ div#control-container {
       margin: auto; }
       div#control-container div#central-control-container div#central-controls div#previous {
         display: inline-block;
-        width: 20px; /*40px*/
-        height: 20px; /*40px*/
+        width: 40px;
+        height: 40px;
         cursor: pointer;
-        background: url("../img/prev_s.svg");
+        background: url("../img/prev.svg");
         background-repeat: no-repeat;
         float: left;
         margin-top: 10px;
         margin-right: -5px; }
       div#control-container div#central-control-container div#central-controls div#play-pause {
         display: inline-block;
-        width: 30px; /*60px*/
-        height: 30px; /*60px*/
+        width: 60px;
+        height: 60px;
         cursor: pointer;
         float: left; }
         div#control-container div#central-control-container div#central-controls div#play-pause.amplitude-paused {
-          background: url("../img/play_s.svg"); }
+          background: url("../img/play.svg"); }
         div#control-container div#central-control-container div#central-controls div#play-pause.amplitude-playing {
-          background: url("../img/pause_s.svg"); }
+          background: url("../img/pause.svg"); }
       div#control-container div#central-control-container div#central-controls div#next {
         display: inline-block;
-        width: 20px; /*40px*/
-        height: 20px; /*40px*/
+        width: 40px;
+        height: 40px;
         cursor: pointer;
-        background: url("../img/next_s.svg");
+        background: url("../img/next.svg");
         background-repeat: no-repeat;
         float: left;
         margin-top: 10px;
@@ -713,14 +714,14 @@ div#meta-container {
   div#meta-container span.song-name {
     display: block;
     color: #272726;
-    font-size: 10px; /*20px*/
+    font-size: 20px;
     font-family: 'Open Sans', sans-serif;
     white-space: normal;
     overflow: hidden;
     text-overflow: ellipsis; }
   div#meta-container div.song-artist-album {
     color: #607D8B;
-    font-size: 8px; /*14px*/
+    font-size: 14px;
     font-weight: 700;
     text-transform: uppercase;
     font-family: 'Open Sans', sans-serif;
