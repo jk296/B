@@ -486,7 +486,7 @@ div#control-container {
       margin-top: 40px;
       float: none; } }
   div#control-container div#central-control-container {
-    width: 40%; /*50%*/
+    width: 50%; /*50%*/
     float: left;}
     div#control-container div#central-control-container div#central-controls {
       width: 130px; /*130px*/
