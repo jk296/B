@@ -529,7 +529,7 @@ div#control-container {
       width: 11.5px; /*23px*/ /*11.5px*/
       height: 9.5px; /*19px*/ /*9.5px*/
       cursor: pointer; /*pointer*/
-      /*margin: auto;*/ float: left; margin-left: 25px;}
+      /*margin: auto;*/ float: left; margin-left: 20px;}
       div#control-container div#volume-container div#shuffle-right.amplitude-shuffle-off {
         background: url("../img/shuffle-off_s.svg"); }
       div#control-container div#volume-container div#shuffle-right.amplitude-shuffle-on {
