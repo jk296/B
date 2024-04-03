@@ -473,8 +473,8 @@ div#control-container {
       div#control-container div#repeat-container div#repeat.amplitude-repeat-on {
         background: url("../img/repeat-on_s.svg"); }
     div#control-container div#repeat-container div#shuffle {
-      width: 11.5px; /*23px*/
-      height: 9.5px; /*19px*/
+      width: 0px; /*23px*/
+      height: 0px; /*19px*/
       cursor: pointer;
       float: right; /*right*/ margin-right: 5px}
       div#control-container div#repeat-container div#shuffle.amplitude-shuffle-off {
@@ -526,8 +526,8 @@ div#control-container {
     float: left; /*left*/
     padding-top: 10px; /*20px*/}
     div#control-container div#volume-container div#shuffle-right {
-      width: 11.5px; /*23px*/ /*11.5px*/
-      height: 9.5px; /*19px*/ /*9.5px*/
+      width: 0px; /*23px*/ /*11.5px*/
+      height: 0px; /*19px*/ /*9.5px*/
       cursor: pointer; /*pointer*/
       /*margin: auto;*/ float: left; margin-left: 25px;}
       div#control-container div#volume-container div#shuffle-right.amplitude-shuffle-off {
