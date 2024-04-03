@@ -459,7 +459,7 @@ div#progress-container {
 
 div#control-container {
   margin-top: 25px;
-  margin-top: 20px; margin-left: 0px}
+  margin-top: 20px; margin-left: -10px} /*margin-left: 0px*/
   div#control-container div#repeat-container {
     width: 25%;
     float: left;
