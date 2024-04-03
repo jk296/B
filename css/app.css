@@ -465,16 +465,16 @@ div#control-container {
     float: left;
     padding-top: 12px; /*25px*/}
     div#control-container div#repeat-container div#repeat {
-      width: 12px; /*24px*/
-      height: 9.5px; /*19px*/
+      width: 0px; /*24px*/ /*12px*/.
+      height: 0px; /*19px*/ /*9.5px*/
       cursor: pointer; }
       div#control-container div#repeat-container div#repeat.amplitude-repeat-off {
         background: url("../img/repeat-off_s.svg"); }
       div#control-container div#repeat-container div#repeat.amplitude-repeat-on {
         background: url("../img/repeat-on_s.svg"); }
     div#control-container div#repeat-container div#shuffle {
-      width: 0px; /*23px*/
-      height: 0px; /*19px*/
+      width: 11.5px; /*23px*/ /*11.5px*/
+      height: 9.5px; /*19px*/ /*9.5px*/
       cursor: pointer;
       float: right; /*right*/ margin-right: 5px}
       div#control-container div#repeat-container div#shuffle.amplitude-shuffle-off {
