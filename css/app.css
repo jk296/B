@@ -780,7 +780,7 @@ div#amplitude-left {
 		width: 50%; /*50%*/
 		float: left;}
 		div#control-container div#central-control-container div#central-controls {
-		  width: 130px; /*130px*/
+		  width: 200px; /*130px*/
 		  margin: auto; }
 		  div#control-container div#central-control-container div#central-controls div#previous {
 			display: inline-block;
