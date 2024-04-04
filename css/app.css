@@ -787,10 +787,10 @@ div#amplitude-left {
 			width: 40px; /*40px*/
 			height: 40px; /*40px*/
 			cursor: pointer;
-			background: url("../img/prev_L.svg");
+			background: url("../img/prev_m.svg");
 			background-repeat: no-repeat;
 			float: left;
-			margin-top: 5px; /*10px*/
+			margin-top: 7px; /*10px*/ /*5px*/
 			margin-right: 0px; /*-5px*/}
 		  div#control-container div#central-control-container div#central-controls div#play-pause {
 			display: inline-block;
@@ -799,7 +799,7 @@ div#amplitude-left {
 			cursor: pointer;
 			float: left; }
 			div#control-container div#central-control-container div#central-controls div#play-pause.amplitude-paused {
-			  background: url("../img/play_L.svg"); }
+			  background: url("../img/play_m.svg"); }
 			div#control-container div#central-control-container div#central-controls div#play-pause.amplitude-playing {
 			  background: url("../img/pause_L.svg"); }
 		  div#control-container div#central-control-container div#central-controls div#next {
@@ -807,10 +807,10 @@ div#amplitude-left {
 			width: 40px; /*40px*/
 			height: 40px; /*40px*/
 			cursor: pointer;
-			background: url("../img/next_L.svg");
+			background: url("../img/next_m.svg");
 			background-repeat: no-repeat;
 			float: left;
-			margin-top: 5px; /*10px*/
+			margin-top: 8px; /*10px*/ /*5px*/
 			margin-left: 0px; /*-5px*/}
 	  div#control-container div#volume-container {
 		width: 25%;
